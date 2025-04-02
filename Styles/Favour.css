@@ -1,0 +1,88 @@
+nav{
+    background-color: rgba(32, 206, 87, 0.726);
+}
+ul li{
+    display: inline-block;
+    margin-left: 150px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav img{
+    width: 200px;
+}
+.Content{
+    /* Hide all content  */
+    display: none;
+}
+#Home:target,
+#Contact:target,
+#About:target{
+    display: block;
+}
+#Home{
+    background-color: blueviolet;
+    color: black;
+    font-size: 30px;
+}
+#Contact{
+    background-color: blueviolet;
+    color: black;
+    font-size: 30px;
+}
+#About{
+    background-color: blueviolet;
+    color: black;
+    font-size: 30px;
+}
+
+.Division1{
+    border: 5px solid rgb(93, 7, 93);
+
+    padding: 40px;
+}
+.Yummy{
+    color: rgb(205, 28, 28);
+    font-size: 45px;
+}
+.AboutYum{
+    color: black;
+    font-size: 25px;
+}
+.More{
+    color: rgb(42, 2, 2);
+}
+
+.Division2{
+    border: 5px solid gray;
+
+    padding: 40px;
+}
+.Beauty{
+    color: purple;
+    font-size: 35px;
+}
+.AboutBeau{
+    color: pink;
+    font-size: 30px;
+}
+.Click{
+    color: blue;
+}
+
+.Division3{
+    border: 5px solid chocolate;
+
+    padding: 40px;
+}
+.Fashion{
+    color: black;
+    font-size: 40px;
+}
+.AboutFash{
+    color: blue;
+    font-size: 20px;
+}
+.For{
+    color: dimgrey;
+}
